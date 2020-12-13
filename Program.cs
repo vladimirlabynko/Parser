@@ -32,10 +32,10 @@ namespace Parser
                 Console.WriteLine("Type : {0}", type);
                 Console.WriteLine("Date : {0}", date);
                 Console.WriteLine("Time : {0}", time);
-                Console.WriteLine("Широта : {0};Направление :{1}", Math.Round(lan1, 2), lan2);
-                Console.WriteLine("Долгота: {0}; Направление:{1}", Math.Round(lat1, 2), lat2);
-                Console.WriteLine("Широта в градусах : {0};Направление : {1}", Math.Round(lan, 2), lan2);
-                Console.WriteLine("Долгота в градусах : {0};Направление : {1}", Math.Round(lat, 2), lat2);
+                Console.WriteLine("Широта : {0};Направление :{1}", Math.Round(lan1, 2), lan2);//latitude 
+                Console.WriteLine("Долгота: {0}; Направление:{1}", Math.Round(lat1, 2), lat2);//longitude 
+                Console.WriteLine("Широта в градусах : {0};Направление : {1}", Math.Round(lan, 2), lan2);//latitude, direction
+                Console.WriteLine("Долгота в градусах : {0};Направление : {1}", Math.Round(lat, 2), lat2);//longitude, direction
                 Console.WriteLine("Speed :{0}", speed);
                 Console.WriteLine("Course :{0}", course);
                 Console.WriteLine("Height :{0}", height);
